@@ -13,7 +13,7 @@ The code will look like the following:
 ```
     public Dictionary<string,Boolean> GetItems()
       {
-         Dictionary<string, Boolean> dict = new                  Dictionary<string,
+         Dictionary<string, Boolean> dict = new Dictionary<string,
          Boolean>();
          LoadProductionOrders(ref dict);
          return dict;
