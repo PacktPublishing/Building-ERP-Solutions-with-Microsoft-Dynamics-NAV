@@ -1,0 +1,17 @@
+C:\Documents and Settings\AAmini2776\My Documents\Visual Studio 2008\Projects\NAV Buttons\NAV Buttons\bin\Debug\DynamicsNAVButtonPanel.dll
+C:\Documents and Settings\AAmini2776\My Documents\Visual Studio 2008\Projects\NAV Buttons\NAV Buttons\bin\Debug\DynamicsNAVButtonPanel.pdb
+C:\Documents and Settings\AAmini2776\My Documents\Visual Studio 2008\Projects\NAV Buttons\NAV Buttons\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\AAmini2776\My Documents\Visual Studio 2008\Projects\NAV Buttons\NAV Buttons\obj\Debug\DynamicsNAVButtonPanel.dll
+C:\Documents and Settings\AAmini2776\My Documents\Visual Studio 2008\Projects\NAV Buttons\NAV Buttons\obj\Debug\DynamicsNAVButtonPanel.pdb
+C:\Users\stefano\Desktop\NAV Buttons\NAV Buttons\bin\Debug\DynamicsNAVButtonPanel.dll
+C:\Users\stefano\Desktop\NAV Buttons\NAV Buttons\bin\Debug\DynamicsNAVButtonPanel.pdb
+C:\Users\stefano\Desktop\NAV Buttons\NAV Buttons\bin\Debug\Microsoft.Dynamics.Framework.UI.Extensibility.dll
+C:\Users\stefano\Desktop\NAV Buttons\NAV Buttons\obj\Debug\NAV Buttons.csprojResolveAssemblyReference.cache
+C:\Users\stefano\Desktop\NAV Buttons\NAV Buttons\obj\Debug\DynamicsNAVButtonPanel.dll
+C:\Users\stefano\Desktop\NAV Buttons\NAV Buttons\obj\Debug\DynamicsNAVButtonPanel.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Buttons\bin\Debug\DynamicsNAVButtonPanel.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Buttons\bin\Debug\DynamicsNAVButtonPanel.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Buttons\bin\Debug\Microsoft.Dynamics.Framework.UI.Extensibility.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Buttons\obj\Debug\NAV Buttons.csprojResolveAssemblyReference.cache
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Buttons\obj\Debug\DynamicsNAVButtonPanel.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Buttons\obj\Debug\DynamicsNAVButtonPanel.pdb

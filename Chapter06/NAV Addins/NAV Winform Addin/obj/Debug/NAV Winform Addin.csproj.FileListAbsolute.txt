@@ -1,0 +1,7 @@
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Winform Addin\bin\Debug\NAV Winform Addin.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Winform Addin\bin\Debug\NAV Winform Addin.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Winform Addin\bin\Debug\Microsoft.Dynamics.Framework.UI.Extensibility.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Winform Addin\obj\Debug\NAV_Winform_Addin.AddInUserControl.resources
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Winform Addin\obj\Debug\NAV Winform Addin.csproj.GenerateResource.Cache
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Winform Addin\obj\Debug\NAV Winform Addin.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_06\NAV Addins\NAV Winform Addin\obj\Debug\NAV Winform Addin.pdb

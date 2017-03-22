@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/B2BManagement" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/B2BManagement" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/B2BManagement" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="GetSalesPrice">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="custNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="postingDate" type="date" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="quantity" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="uoM" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="campaignCode" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetSalesPrice_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetSalesDiscount">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="custNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="postingDate" type="date" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="quantity" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="uoM" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="campaignCode" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetSalesDiscount_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="InsertOrderB2B">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="orderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="lineNo" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="customerNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="orderDate" type="date" />
+            <element minOccurs="1" maxOccurs="1" name="shipAddressCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="itemNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="qty" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="note" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="InsertOrderB2B_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateB2BPassword">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="customerNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="mD5_B2BPwd" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="mD5_B2BHiddenPricePwd" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateB2BPassword_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="GetSalesPrice">
+    <part name="parameters" element="tns:GetSalesPrice" />
+  </message>
+  <message name="GetSalesPrice_Result">
+    <part name="parameters" element="tns:GetSalesPrice_Result" />
+  </message>
+  <message name="GetSalesDiscount">
+    <part name="parameters" element="tns:GetSalesDiscount" />
+  </message>
+  <message name="GetSalesDiscount_Result">
+    <part name="parameters" element="tns:GetSalesDiscount_Result" />
+  </message>
+  <message name="InsertOrderB2B">
+    <part name="parameters" element="tns:InsertOrderB2B" />
+  </message>
+  <message name="InsertOrderB2B_Result">
+    <part name="parameters" element="tns:InsertOrderB2B_Result" />
+  </message>
+  <message name="UpdateB2BPassword">
+    <part name="parameters" element="tns:UpdateB2BPassword" />
+  </message>
+  <message name="UpdateB2BPassword_Result">
+    <part name="parameters" element="tns:UpdateB2BPassword_Result" />
+  </message>
+  <portType name="B2BManagement_Port">
+    <operation name="GetSalesPrice">
+      <input name="GetSalesPrice" message="tns:GetSalesPrice" />
+      <output name="GetSalesPrice_Result" message="tns:GetSalesPrice_Result" />
+    </operation>
+    <operation name="GetSalesDiscount">
+      <input name="GetSalesDiscount" message="tns:GetSalesDiscount" />
+      <output name="GetSalesDiscount_Result" message="tns:GetSalesDiscount_Result" />
+    </operation>
+    <operation name="InsertOrderB2B">
+      <input name="InsertOrderB2B" message="tns:InsertOrderB2B" />
+      <output name="InsertOrderB2B_Result" message="tns:InsertOrderB2B_Result" />
+    </operation>
+    <operation name="UpdateB2BPassword">
+      <input name="UpdateB2BPassword" message="tns:UpdateB2BPassword" />
+      <output name="UpdateB2BPassword_Result" message="tns:UpdateB2BPassword_Result" />
+    </operation>
+  </portType>
+  <binding name="B2BManagement_Binding" type="tns:B2BManagement_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="GetSalesPrice">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/B2BManagement:GetSalesPrice" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetSalesPrice">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetSalesPrice_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetSalesDiscount">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/B2BManagement:GetSalesDiscount" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetSalesDiscount">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetSalesDiscount_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="InsertOrderB2B">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/B2BManagement:InsertOrderB2B" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="InsertOrderB2B">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="InsertOrderB2B_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="UpdateB2BPassword">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/B2BManagement:UpdateB2BPassword" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateB2BPassword">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateB2BPassword_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="B2BManagement">
+    <port name="B2BManagement_Port" binding="tns:B2BManagement_Binding">
+      <address location="http://192.6.1.53:7057/navEcodom/WS/Febi%20Test/Codeunit/B2BManagement" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,9 @@
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\bin\Debug\ConsoleApplicationNAV.exe.config
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\bin\Debug\ConsoleApplicationNAV.exe
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\bin\Debug\ConsoleApplicationNAV.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\obj\Debug\ConsoleApplicationNAV.csprojResolveAssemblyReference.cache
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\obj\Debug\ConsoleApplicationNAV.exe
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\obj\Debug\ConsoleApplicationNAV.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\bin\Debug\ConsoleApplicationNAV.exe.config
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\obj\Debug\ConsoleApplicationNAV.exe
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_03\ConsoleApplicationNAV\ConsoleApplicationNAV\obj\Debug\ConsoleApplicationNAV.pdb

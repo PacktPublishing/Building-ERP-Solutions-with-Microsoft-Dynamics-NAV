@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:35798/B2BService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" />
+  <xs:element name="GetArticoliXML">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticoliXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetArticoliXMLResult" nillable="true" type="q1:ArrayOfArticolo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticoliJSON">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticoliJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetArticoliJSONResult" nillable="true" type="q2:ArrayOfArticolo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticoliXMLbyDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataModifica" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticoliXMLbyDateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetArticoliXMLbyDateResult" nillable="true" type="q3:ArrayOfArticolo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticoliJSONbyDate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DataModifica" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetArticoliJSONbyDateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetArticoliJSONbyDateResult" nillable="true" type="q4:ArrayOfArticolo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientiXML">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientiXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetClientiXMLResult" nillable="true" type="q5:ArrayOfCliente" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientiJSON">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientiJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetClientiJSONResult" nillable="true" type="q6:ArrayOfCliente" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndirizziSpedizioneClientiXML">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndirizziSpedizioneClientiXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetIndirizziSpedizioneClientiXMLResult" nillable="true" type="q7:ArrayOfIndirizzoSpedizione" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndirizziSpedizioneClientiJSON">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIndirizziSpedizioneClientiJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetIndirizziSpedizioneClientiJSONResult" nillable="true" type="q8:ArrayOfIndirizzoSpedizione" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoVenditaXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataOrdine" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NrArticolo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantita" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoVenditaXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPrezzoVenditaXMLResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoVenditaJSON">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataOrdine" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NrArticolo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantita" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoVenditaJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPrezzoVenditaJSONResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScontoVenditaXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataOrdine" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NrArticolo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantita" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScontoVenditaXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetScontoVenditaXMLResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScontoVenditaJSON">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataOrdine" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NrArticolo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantita" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetScontoVenditaJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetScontoVenditaJSONResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoArticoloXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataOrdine" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NrArticolo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantita" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoArticoloXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetPrezzoArticoloXMLResult" nillable="true" type="q9:PrezzoArticolo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoArticoloJSON">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DataOrdine" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NrArticolo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantita" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrezzoArticoloJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="GetPrezzoArticoloJSONResult" nillable="true" type="q10:PrezzoArticolo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertOrderXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="ordine" nillable="true" type="q11:Ordine" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertOrderXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertOrderXMLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertOrderJSON">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="ordine" nillable="true" type="q12:Ordine" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertOrderJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertOrderJSONResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateB2BPasswordXML">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="password" nillable="true" type="q13:B2BPassword" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateB2BPasswordXMLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateB2BPasswordXMLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateB2BPasswordJSON">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" minOccurs="0" name="password" nillable="true" type="q14:B2BPassword" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateB2BPasswordJSONResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateB2BPasswordJSONResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

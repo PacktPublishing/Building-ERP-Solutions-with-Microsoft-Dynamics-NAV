@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NAVAzureServiceBus.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NAVAzureServiceBus_NAVSalesOrderWS_SalesOrder_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.6.1.37:7047/DynamicsNAV90/WS/CRONUS%20Italia%20S.p.A./Page/SalesOrder</Value>
+    </Setting>
+    <Setting Name="NAVWSURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.6.1.37:7047/DynamicsNAV90/WS/CRONUS%20Italia%20S.p.A./Page/SalesOrder</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

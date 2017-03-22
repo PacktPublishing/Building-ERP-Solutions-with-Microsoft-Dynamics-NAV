@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://192.6.1.39:7052/NAV2017CRONUS/WS/CRONUS Italia S.p.A./Codeunit/RegisterMissionTicket" filename="RegisterMissionTicket.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

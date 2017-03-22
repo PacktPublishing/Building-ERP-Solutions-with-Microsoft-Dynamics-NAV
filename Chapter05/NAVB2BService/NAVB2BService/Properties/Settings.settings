@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NAVB2BService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NAVB2BService_B2BManagement_B2BManagement" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://vmeid27.eid.local:7057/navEcodom/WS/Febi%20Test/Codeunit/B2BManagement</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

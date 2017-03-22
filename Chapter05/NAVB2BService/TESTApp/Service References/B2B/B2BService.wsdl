@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="B2BService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:35798/B2BService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:35798/B2BService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:35798/B2BService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IB2BService_GetArticoliXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetArticoliXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetArticoliJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetArticoliJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetArticoliXMLbyDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliXMLbyDate" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetArticoliXMLbyDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliXMLbyDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetArticoliJSONbyDate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliJSONbyDate" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetArticoliJSONbyDate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetArticoliJSONbyDateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetClientiXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientiXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetClientiXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientiXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetClientiJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientiJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetClientiJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientiJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetIndirizziSpedizioneClientiXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndirizziSpedizioneClientiXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetIndirizziSpedizioneClientiXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndirizziSpedizioneClientiXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetIndirizziSpedizioneClientiJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndirizziSpedizioneClientiJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetIndirizziSpedizioneClientiJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIndirizziSpedizioneClientiJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoVenditaXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoVenditaXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoVenditaXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoVenditaXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoVenditaJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoVenditaJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoVenditaJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoVenditaJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetScontoVenditaXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScontoVenditaXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetScontoVenditaXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScontoVenditaXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetScontoVenditaJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetScontoVenditaJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetScontoVenditaJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetScontoVenditaJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoArticoloXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoArticoloXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoArticoloXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoArticoloXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoArticoloJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoArticoloJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_GetPrezzoArticoloJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrezzoArticoloJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_InsertOrderXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertOrderXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_InsertOrderXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertOrderXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_InsertOrderJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertOrderJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_InsertOrderJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertOrderJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_UpdateB2BPasswordXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateB2BPasswordXML" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_UpdateB2BPasswordXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateB2BPasswordXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_UpdateB2BPasswordJSON_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateB2BPasswordJSON" />
+  </wsdl:message>
+  <wsdl:message name="IB2BService_UpdateB2BPasswordJSON_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateB2BPasswordJSONResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IB2BService">
+    <wsdl:operation name="GetArticoliXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetArticoliXML" message="tns:IB2BService_GetArticoliXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetArticoliXMLResponse" message="tns:IB2BService_GetArticoliXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetArticoliJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetArticoliJSON" message="tns:IB2BService_GetArticoliJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetArticoliJSONResponse" message="tns:IB2BService_GetArticoliJSON_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetArticoliXMLbyDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetArticoliXMLbyDate" message="tns:IB2BService_GetArticoliXMLbyDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetArticoliXMLbyDateResponse" message="tns:IB2BService_GetArticoliXMLbyDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetArticoliJSONbyDate">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetArticoliJSONbyDate" message="tns:IB2BService_GetArticoliJSONbyDate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetArticoliJSONbyDateResponse" message="tns:IB2BService_GetArticoliJSONbyDate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClientiXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetClientiXML" message="tns:IB2BService_GetClientiXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetClientiXMLResponse" message="tns:IB2BService_GetClientiXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClientiJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetClientiJSON" message="tns:IB2BService_GetClientiJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetClientiJSONResponse" message="tns:IB2BService_GetClientiJSON_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIndirizziSpedizioneClientiXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetIndirizziSpedizioneClientiXML" message="tns:IB2BService_GetIndirizziSpedizioneClientiXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetIndirizziSpedizioneClientiXMLResponse" message="tns:IB2BService_GetIndirizziSpedizioneClientiXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIndirizziSpedizioneClientiJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetIndirizziSpedizioneClientiJSON" message="tns:IB2BService_GetIndirizziSpedizioneClientiJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetIndirizziSpedizioneClientiJSONResponse" message="tns:IB2BService_GetIndirizziSpedizioneClientiJSON_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrezzoVenditaXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoVenditaXML" message="tns:IB2BService_GetPrezzoVenditaXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoVenditaXMLResponse" message="tns:IB2BService_GetPrezzoVenditaXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrezzoVenditaJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoVenditaJSON" message="tns:IB2BService_GetPrezzoVenditaJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoVenditaJSONResponse" message="tns:IB2BService_GetPrezzoVenditaJSON_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScontoVenditaXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetScontoVenditaXML" message="tns:IB2BService_GetScontoVenditaXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetScontoVenditaXMLResponse" message="tns:IB2BService_GetScontoVenditaXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetScontoVenditaJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetScontoVenditaJSON" message="tns:IB2BService_GetScontoVenditaJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetScontoVenditaJSONResponse" message="tns:IB2BService_GetScontoVenditaJSON_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrezzoArticoloXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoArticoloXML" message="tns:IB2BService_GetPrezzoArticoloXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoArticoloXMLResponse" message="tns:IB2BService_GetPrezzoArticoloXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrezzoArticoloJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoArticoloJSON" message="tns:IB2BService_GetPrezzoArticoloJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/GetPrezzoArticoloJSONResponse" message="tns:IB2BService_GetPrezzoArticoloJSON_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/InsertOrderXML" message="tns:IB2BService_InsertOrderXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/InsertOrderXMLResponse" message="tns:IB2BService_InsertOrderXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertOrderJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/InsertOrderJSON" message="tns:IB2BService_InsertOrderJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/InsertOrderJSONResponse" message="tns:IB2BService_InsertOrderJSON_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateB2BPasswordXML">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/UpdateB2BPasswordXML" message="tns:IB2BService_UpdateB2BPasswordXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/UpdateB2BPasswordXMLResponse" message="tns:IB2BService_UpdateB2BPasswordXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateB2BPasswordJSON">
+      <wsdl:input wsaw:Action="http://tempuri.org/IB2BService/UpdateB2BPasswordJSON" message="tns:IB2BService_UpdateB2BPasswordJSON_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IB2BService/UpdateB2BPasswordJSONResponse" message="tns:IB2BService_UpdateB2BPasswordJSON_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="B2BService" />
+</wsdl:definitions>

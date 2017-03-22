@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/RegisterMissionTicket" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/RegisterMissionTicket" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/RegisterMissionTicket" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="RegisterMissionTicket">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="missionCode" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="date" type="dateTime" />
+            <element minOccurs="1" maxOccurs="1" name="status" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="latitude" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="longitude" type="decimal" />
+            <element minOccurs="1" maxOccurs="1" name="note" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="RegisterMissionTicket_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="RegisterMissionTicket">
+    <part name="parameters" element="tns:RegisterMissionTicket" />
+  </message>
+  <message name="RegisterMissionTicket_Result">
+    <part name="parameters" element="tns:RegisterMissionTicket_Result" />
+  </message>
+  <portType name="RegisterMissionTicket_Port">
+    <operation name="RegisterMissionTicket">
+      <input name="RegisterMissionTicket" message="tns:RegisterMissionTicket" />
+      <output name="RegisterMissionTicket_Result" message="tns:RegisterMissionTicket_Result" />
+    </operation>
+  </portType>
+  <binding name="RegisterMissionTicket_Binding" type="tns:RegisterMissionTicket_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="RegisterMissionTicket">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/RegisterMissionTicket:RegisterMissionTicket" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="RegisterMissionTicket">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="RegisterMissionTicket_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="RegisterMissionTicket">
+    <port name="RegisterMissionTicket_Port" binding="tns:RegisterMissionTicket_Binding">
+      <address location="http://192.6.1.39:7052/NAV2017CRONUS/WS/CRONUS%20Italia%20S.p.A./Codeunit/RegisterMissionTicket" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>

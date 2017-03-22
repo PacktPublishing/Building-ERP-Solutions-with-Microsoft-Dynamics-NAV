@@ -1,0 +1,4 @@
+C:\Stefano\FEBI\WS-TEST\RestService\bin\RestService.dll
+C:\Stefano\FEBI\WS-TEST\RestService\bin\RestService.pdb
+C:\Stefano\FEBI\WS-TEST\RestService\obj\Debug\RestService.dll
+C:\Stefano\FEBI\WS-TEST\RestService\obj\Debug\RestService.pdb

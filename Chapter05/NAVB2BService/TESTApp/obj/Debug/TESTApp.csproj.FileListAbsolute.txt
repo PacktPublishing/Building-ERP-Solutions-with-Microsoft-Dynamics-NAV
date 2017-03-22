@@ -1,0 +1,26 @@
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\bin\Debug\TESTApp.exe.config
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\bin\Debug\TESTApp.exe
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\bin\Debug\TESTApp.pdb
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.Form1.resources
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.Properties.Resources.resources
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.csproj.GenerateResource.Cache
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.exe
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.pdb
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\bin\Debug\TESTApp.exe.config
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.exe
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.pdb
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\bin\Debug\TESTApp.exe
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\bin\Debug\TESTApp.pdb
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.Form1.resources
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.Properties.Resources.resources
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.csproj.GenerateResource.Cache
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\TESTApp\obj\Debug\TESTApp.csprojResolveAssemblyReference.cache
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\bin\Debug\TESTApp.exe.config
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\obj\Debug\TESTApp.exe
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\obj\Debug\TESTApp.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\bin\Debug\TESTApp.exe
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\bin\Debug\TESTApp.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\obj\Debug\TESTApp.csprojResolveAssemblyReference.cache
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\obj\Debug\TESTApp.Form1.resources
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\obj\Debug\TESTApp.Properties.Resources.resources
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\TESTApp\obj\Debug\TESTApp.csproj.GenerateResource.Cache

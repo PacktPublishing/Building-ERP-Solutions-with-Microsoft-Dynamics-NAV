@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WCFServiceWebRoleNAV" version="2.9.6499.4" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Runtime>
+    <EntryPoint>
+      <NetFxEntryPoint assemblyName="WCFServiceWebRoleNAV.dll" targetFrameworkVersion="v4.0" />
+    </EntryPoint>
+  </Runtime>
+  <Properties>
+    <Property name="TargetFrameworkVersion" value="v4.5" />
+    <Property name="RoleType" value="Web" />
+    <Property name="RoleName" value="WCFServiceWebRoleNAV" />
+    <Property name="ProjectName" value="WCFServiceWebRoleNAV" />
+    <Property name="Configuration" value="Release" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="SetConfiguration" value="Configuration=Release" />
+    <Property name="SetPlatform" value="Platform=AnyCPU" />
+    <Property name="RoleTargetFramework" value="v4.5" />
+    <Property name="OutputDir" value="C:\STEFANO\CLOUD\NAVAzureCloudService\NAVAzureCloudService\obj\Release\WCFServiceWebRoleNAV\" />
+    <Property name="EntryPoint" value="WCFServiceWebRoleNAV.dll" />
+    <Property name="SourceDir" value="C:\STEFANO\CLOUD\NAVAzureCloudService\WCFServiceWebRoleNAV\" />
+    <Property name="SitePhysicalPath" value="C:\STEFANO\CLOUD\NAVAzureCloudService\NAVAzureCloudService\obj\Release\WCFServiceWebRoleNAV\" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+  <Sites>
+    <Site name="Web" physicalDirectory="C:\STEFANO\CLOUD\NAVAzureCloudService\NAVAzureCloudService\obj\Release\WCFServiceWebRoleNAV\">
+      <Bindings>
+        <Binding name="Endpoint1" endpointName="Endpoint1" />
+      </Bindings>
+    </Site>
+  </Sites>
+</RoleModel>

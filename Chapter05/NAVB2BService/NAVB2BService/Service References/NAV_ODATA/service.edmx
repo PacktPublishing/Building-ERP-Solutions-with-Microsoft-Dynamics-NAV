@@ -1,0 +1,121 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="NAV" xmlns="http://schemas.microsoft.com/ado/2007/05/edm">
+      <EntityType Name="B2BArticoliWeb">
+        <Key>
+          <PropertyRef Name="AuxiliaryIndex1" />
+          <PropertyRef Name="AuxiliaryIndex2" />
+          <PropertyRef Name="AuxiliaryIndex3" />
+          <PropertyRef Name="AuxiliaryIndex4" />
+          <PropertyRef Name="AuxiliaryIndex5" />
+          <PropertyRef Name="AuxiliaryIndex6" />
+          <PropertyRef Name="AuxiliaryIndex7" />
+          <PropertyRef Name="No" />
+        </Key>
+        <Property Name="No" Type="Edm.String" Nullable="false" />
+        <Property Name="Description" Type="Edm.String" />
+        <Property Name="Description_2" Type="Edm.String" />
+        <Property Name="Base_Unit_of_Measure" Type="Edm.String" />
+        <Property Name="Linea" Type="Edm.String" />
+        <Property Name="Quantità_Lotto" Type="Edm.Int32" />
+        <Property Name="Last_Date_Modified" Type="Edm.DateTime" />
+        <Property Name="Inventory" Type="Edm.Decimal" />
+        <Property Name="Net_Change" Type="Edm.Decimal" />
+        <Property Name="Last_Movement_Date" Type="Edm.DateTime" />
+        <Property Name="Dimension_Value_Code" Type="Edm.String" />
+        <Property Name="Name" Type="Edm.String" />
+        <Property Name="AuxiliaryIndex1" Type="Edm.String" Nullable="false" />
+        <Property Name="AuxiliaryIndex2" Type="Edm.String" Nullable="false" />
+        <Property Name="AuxiliaryIndex3" Type="Edm.Int32" Nullable="false" />
+        <Property Name="AuxiliaryIndex4" Type="Edm.String" Nullable="false" />
+        <Property Name="AuxiliaryIndex5" Type="Edm.String" Nullable="false" />
+        <Property Name="AuxiliaryIndex6" Type="Edm.String" Nullable="false" />
+        <Property Name="AuxiliaryIndex7" Type="Edm.String" Nullable="false" />
+        <Property Name="Location_Filter_FilterOnly" Type="Edm.String" />
+        <Property Name="Date_Filter_FilterOnly" Type="Edm.DateTime" />
+      </EntityType>
+      <EntityType Name="B2BClientiWeb">
+        <Key>
+          <PropertyRef Name="AuxiliaryIndex1" />
+          <PropertyRef Name="AuxiliaryIndex2" />
+          <PropertyRef Name="AuxiliaryIndex3" />
+          <PropertyRef Name="No" />
+        </Key>
+        <Property Name="No" Type="Edm.String" Nullable="false" />
+        <Property Name="Name" Type="Edm.String" />
+        <Property Name="Address" Type="Edm.String" />
+        <Property Name="City" Type="Edm.String" />
+        <Property Name="Post_Code" Type="Edm.String" />
+        <Property Name="County" Type="Edm.String" />
+        <Property Name="Country_Region_Code" Type="Edm.String" />
+        <Property Name="Fiscal_Code" Type="Edm.String" />
+        <Property Name="VAT_Registration_No" Type="Edm.String" />
+        <Property Name="Email_Ecommerce" Type="Edm.String" />
+        <Property Name="ActivadoWeb" Type="Edm.Boolean" />
+        <Property Name="Tipologia_Articoli_Attiva_Web" Type="Edm.String" />
+        <Property Name="Is_Hidden_Price_Web" Type="Edm.Boolean" />
+        <Property Name="MD5_B2B_Access_Pwd" Type="Edm.String" />
+        <Property Name="MD5_B2B_Price_Pwd" Type="Edm.String" />
+        <Property Name="B2B_Orders_Blocked" Type="Edm.Boolean" />
+        <Property Name="Dimension_Value_Code" Type="Edm.String" />
+        <Property Name="AuxiliaryIndex1" Type="Edm.Int32" Nullable="false" />
+        <Property Name="AuxiliaryIndex2" Type="Edm.String" Nullable="false" />
+        <Property Name="AuxiliaryIndex3" Type="Edm.String" Nullable="false" />
+      </EntityType>
+      <EntityType Name="B2BShipAddress">
+        <Key>
+          <PropertyRef Name="Code" />
+          <PropertyRef Name="Customer_No" />
+        </Key>
+        <Property Name="Customer_No" Type="Edm.String" Nullable="false" />
+        <Property Name="Code" Type="Edm.String" Nullable="false" />
+        <Property Name="Name" Type="Edm.String" />
+        <Property Name="Address" Type="Edm.String" />
+        <Property Name="City" Type="Edm.String" />
+        <Property Name="Country_Region_Code" Type="Edm.String" />
+        <Property Name="Post_Code" Type="Edm.String" />
+        <Property Name="County" Type="Edm.String" />
+        <Property Name="Default_Shipment" Type="Edm.Boolean" />
+      </EntityType>
+      <EntityType Name="Company">
+        <Key>
+          <PropertyRef Name="Name" />
+        </Key>
+        <Property Name="Name" Type="Edm.String" Nullable="false" />
+        <NavigationProperty Name="B2BArticoliWeb" Relationship="NAV.Company_B2BArticoliWeb" ToRole="B2BArticoliWeb" FromRole="Company" />
+        <NavigationProperty Name="B2BClientiWeb" Relationship="NAV.Company_B2BClientiWeb" ToRole="B2BClientiWeb" FromRole="Company" />
+        <NavigationProperty Name="B2BShipAddress" Relationship="NAV.Company_B2BShipAddress" ToRole="B2BShipAddress" FromRole="Company" />
+      </EntityType>
+      <Association Name="Company_B2BArticoliWeb">
+        <End Type="NAV.Company" Role="Company" Multiplicity="*" />
+        <End Type="NAV.B2BArticoliWeb" Role="B2BArticoliWeb" Multiplicity="*" />
+      </Association>
+      <Association Name="Company_B2BClientiWeb">
+        <End Type="NAV.Company" Role="Company" Multiplicity="*" />
+        <End Type="NAV.B2BClientiWeb" Role="B2BClientiWeb" Multiplicity="*" />
+      </Association>
+      <Association Name="Company_B2BShipAddress">
+        <End Type="NAV.Company" Role="Company" Multiplicity="*" />
+        <End Type="NAV.B2BShipAddress" Role="B2BShipAddress" Multiplicity="*" />
+      </Association>
+      <EntityContainer Name="NAV" m:IsDefaultEntityContainer="true">
+        <EntitySet Name="B2BArticoliWeb" EntityType="NAV.B2BArticoliWeb" />
+        <EntitySet Name="B2BClientiWeb" EntityType="NAV.B2BClientiWeb" />
+        <EntitySet Name="B2BShipAddress" EntityType="NAV.B2BShipAddress" />
+        <EntitySet Name="Company" EntityType="NAV.Company" />
+        <AssociationSet Name="Company_B2BArticoliWeb_B2BArticoliWeb" Association="NAV.Company_B2BArticoliWeb">
+          <End Role="Company" EntitySet="Company" />
+          <End Role="B2BArticoliWeb" EntitySet="B2BArticoliWeb" />
+        </AssociationSet>
+        <AssociationSet Name="Company_B2BClientiWeb_B2BClientiWeb" Association="NAV.Company_B2BClientiWeb">
+          <End Role="Company" EntitySet="Company" />
+          <End Role="B2BClientiWeb" EntitySet="B2BClientiWeb" />
+        </AssociationSet>
+        <AssociationSet Name="Company_B2BShipAddress_B2BShipAddress" Association="NAV.Company_B2BShipAddress">
+          <End Role="Company" EntitySet="Company" />
+          <End Role="B2BShipAddress" EntitySet="B2BShipAddress" />
+        </AssociationSet>
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

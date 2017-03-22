@@ -1,0 +1,33 @@
+http://localhost:8080/B2B/B2BService.svc
+
+Cartella virtuale configurata come Application in C:\FEBI\B2B\B2BService
+
+URL esterna: http://188.10.199.109:8080/B2B/B2BService.svc/getArticoliJSON
+
+NOTA INSTALLAZIONEdata=2014-12-01
+http://188.10.199.109:8080/B2B/B2BService.svc/getPrezzoArticoloJSON?cliente=05000007&data=2014-12-04&art=01000&qty=1
+
+http://188.10.199.109:8080/B2B/B2BService.svc/getPrezzoArticoloJSON?cliente=05001300&data=2014-12-22&art=31426&qty=1
+
+NUOVA URL ESTERNA:
+http://77.108.26.26:7047/DynamicsNAV80/WS/Febi/services
+
+*******************************
+NOTA INSTALLAZIONE:
+Una volta installato il servizio NAV, andare nell'amministrazione del servizio, sezione OData e settare la proprietà MaxPageSize al valore desiderato.
+Il default è 1000 (rotorna solo i primi 1000 record).
+*********************************
+
+Mettere permesso IIS_IUSRS alla cartella B2B
+
+
+ODATA Uri Test: 
+http://localhost:7058/navEcodom/OData/Company('Febi%20Test')/B2BArticoliWeb?$filter=Last_Date_Modified gt datetime'2014-12-01' or Last_Movement_Date gt datetime'2014-12-01'
+
+Url Test Locale:
+http://localhost:35798/B2BService.svc/getArticoliXML?data=2014-12-03
+
+
+http://10.15.0.156:8080/B2B/B2BService.svc
+
+

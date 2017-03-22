@@ -1,0 +1,1 @@
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_07\LOCATION\DeviceLocation\DeviceLocation\DeviceLocation.csproj;x86

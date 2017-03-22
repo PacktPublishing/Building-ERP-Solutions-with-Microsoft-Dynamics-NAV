@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NAVB2BService.Classi" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfArticolo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Articolo" nillable="true" type="tns:Articolo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfArticolo" nillable="true" type="tns:ArrayOfArticolo" />
+  <xs:complexType name="Articolo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Codice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Descrizione1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Descrizione2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Giacenza" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Lotto" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Marca" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipologia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnitaDiMisura" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Articolo" nillable="true" type="tns:Articolo" />
+  <xs:complexType name="ArrayOfCliente">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Cliente" nillable="true" type="tns:Cliente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCliente" nillable="true" type="tns:ArrayOfCliente" />
+  <xs:complexType name="Cliente">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Attivo" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="B2BPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CAP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Citta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Codice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodiceFiscale" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmailEcommerce" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HiddenPricePassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Indirizzo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsHiddenPrice" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Nazione" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PartitaIva" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Provincia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RagioneSociale" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tipologia" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Cliente" nillable="true" type="tns:Cliente" />
+  <xs:complexType name="ArrayOfIndirizzoSpedizione">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="IndirizzoSpedizione" nillable="true" type="tns:IndirizzoSpedizione" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfIndirizzoSpedizione" nillable="true" type="tns:ArrayOfIndirizzoSpedizione" />
+  <xs:complexType name="IndirizzoSpedizione">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CAP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Citta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Codice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Default" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Indirizzo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nazione" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Provincia" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="IndirizzoSpedizione" nillable="true" type="tns:IndirizzoSpedizione" />
+  <xs:complexType name="PrezzoArticolo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodiceArticolo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Prezzo" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Sconto" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PrezzoArticolo" nillable="true" type="tns:PrezzoArticolo" />
+  <xs:complexType name="Ordine">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodiceArticolo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodiceCliente" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodiceIndirizzoDestinazione" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataOrdine" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Note" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NrOrdine" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NrRiga" type="xs:int" />
+      <xs:element minOccurs="0" name="Quantita" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ordine" nillable="true" type="tns:Ordine" />
+  <xs:complexType name="B2BPassword">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MD5HiddenPricePassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MD5Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Utente" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="B2BPassword" nillable="true" type="tns:B2BPassword" />
+</xs:schema>

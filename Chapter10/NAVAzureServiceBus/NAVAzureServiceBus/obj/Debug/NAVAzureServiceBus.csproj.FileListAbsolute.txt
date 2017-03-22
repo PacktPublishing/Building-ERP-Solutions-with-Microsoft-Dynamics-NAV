@@ -1,0 +1,11 @@
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\bin\Debug\NAVAzureServiceBus.exe.config
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\obj\Debug\NAVAzureServiceBus.csprojResolveAssemblyReference.cache
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\bin\Debug\NAVAzureServiceBus.exe
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\bin\Debug\NAVAzureServiceBus.pdb
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\bin\Debug\Microsoft.ServiceBus.dll
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\bin\Debug\Microsoft.ServiceBus.xml
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\obj\Debug\NAVAzureServiceBus.exe
+C:\STEFANO\CLOUD\NAVAzureServiceBus\NAVAzureServiceBus\obj\Debug\NAVAzureServiceBus.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_10\NAVAzureServiceBus\NAVAzureServiceBus\bin\Debug\NAVAzureServiceBus.exe.config
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_10\NAVAzureServiceBus\NAVAzureServiceBus\obj\Debug\NAVAzureServiceBus.exe
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_10\NAVAzureServiceBus\NAVAzureServiceBus\obj\Debug\NAVAzureServiceBus.pdb

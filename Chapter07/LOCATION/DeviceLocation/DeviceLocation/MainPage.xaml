@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="DeviceLocation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DeviceLocation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <ComboBox Name="cmbMissions"
+	        HorizontalAlignment="Left"
+	        Margin="10,10,0,0"
+	        VerticalAlignment="Top"
+	        Width="300"
+	        Loaded="ComboBox_Loaded"
+	        SelectionChanged="ComboBox_SelectionChanged" DisplayMemberPath="Code"/>
+            <TextBox AcceptsReturn="True" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="300" Name="txtNote"/>
+            <ComboBox Name="cmbStatuss"
+	        HorizontalAlignment="Left"
+	        Margin="10,10,0,0"
+	        VerticalAlignment="Top"
+	        Width="300"
+	        Loaded="cmbStatus_Loaded"
+	        SelectionChanged="cmbStatus_SelectionChanged"/>
+            <Button Name="btnTransmitLocation" Content="Transmit Location" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Click="btnTransmitLocation_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

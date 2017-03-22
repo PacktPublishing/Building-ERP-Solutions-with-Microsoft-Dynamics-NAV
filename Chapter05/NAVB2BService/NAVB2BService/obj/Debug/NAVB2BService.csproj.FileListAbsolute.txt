@@ -1,0 +1,152 @@
+C:\Stefano\FEBI\WS-TEST\RestService\bin\NAVB2BService.dll
+C:\Stefano\FEBI\WS-TEST\RestService\bin\NAVB2BService.pdb
+C:\Stefano\FEBI\WS-TEST\RestService\obj\Debug\NAVB2BService.dll
+C:\Stefano\FEBI\WS-TEST\RestService\obj\Debug\NAVB2BService.pdb
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\NAVB2BService.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\NAVB2BService.pdb
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Edm.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.OData.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Services.Client.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\System.Spatial.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Edm.xml
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.OData.xml
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Services.Client.xml
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\System.Spatial.xml
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\System.Spatial.resources.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.dll
+C:\Stefano\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.pdb
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\NAVB2BService.dll.config
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\NAVB2BService.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\NAVB2BService.pdb
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Edm.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.OData.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Services.Client.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\System.Spatial.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Edm.xml
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.OData.xml
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Services.Client.xml
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\System.Spatial.xml
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\de\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\es\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\fr\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\it\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ja\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ko\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\ru\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.dll
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.pdb
+C:\Users\stefano\OneDrive\CLIENTI\FEBI\Interfaccia con B2B\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.csprojResolveAssemblyReference.cache
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\NAVB2BService.dll.config
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\NAVB2BService.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\NAVB2BService.pdb
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Edm.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\Microsoft.Data.OData.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Services.Client.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\System.Spatial.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Edm.xml
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\Microsoft.Data.OData.xml
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\Microsoft.Data.Services.Client.xml
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\System.Spatial.xml
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\de\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\es\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\fr\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\it\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ja\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ko\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\ru\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.csprojResolveAssemblyReference.cache
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.dll
+C:\Users\stefano\OneDrive\Packt\Building ERP Solutions with NAV (Stefano B06043)\Chapter_05\NAVB2BService\NAVB2BService\obj\Debug\NAVB2BService.pdb

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WCFServiceWebRoleNAV.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NAV1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://vmeid30.eid.local:7088/NAVFEBI_PROD/OData/Company('Febi')</Value>
+    </Setting>
+    <Setting Name="NAV1_User" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">stefano</Value>
+    </Setting>
+    <Setting Name="NAV1_Pwd" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sd20111115.</Value>
+    </Setting>
+    <Setting Name="NAV1_Domain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">domain_eid</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

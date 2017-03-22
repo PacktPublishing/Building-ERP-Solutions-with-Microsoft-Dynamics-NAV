@@ -1,0 +1,1 @@
+C:\STEFANO\UWP\MSBandNAVApp\MSBandNAVApp\MSBandNAVApp.csproj;x86
